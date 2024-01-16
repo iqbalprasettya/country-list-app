@@ -1,0 +1,45 @@
+// Light
+$bg-color: hsl(0, 0%, 98%);
+$color-elements: hsl(0, 0%, 100%);
+$text-color: hsl(200, 15%, 8%);
+$shadow-color: rgba(17, 21, 23, 0.142);
+
+// Dark
+$dark-bg-color: hsl(207, 26%, 17%);
+$dark-color-elements: hsl(209, 23%, 22%);
+$dark-text-color: hsl(0, 0%, 100%);
+
+// :root {
+//     --bg-color: hsl(222, 26%, 31%);
+//     --toggle-background: hsl(223, 31%, 20%);
+//     --screen-background: hsl(224, 36%, 15%);
+//     --screen-text-color: #fff;
+//     --primary-color: #fff;
+//     --text-color-2: #fff;
+//     --text-color-1: hsl(221, 14%, 31%);
+//     --text-display-1: hsl(0, 0%, 93%);
+//     --key-background-1: hsl(30, 25%, 89%);
+//     --key-background-2: hsl(225, 21%, 49%);
+//     --key-background-3: hsl(6, 63%, 50%);
+//     --key-shadow-1: hsl(28, 16%, 65%);
+//     --key-shadow-2: hsl(224, 28%, 35%);
+//     --key-shadow-3: hsl(6, 70%, 34%);
+//   }
+  
+//   /* light */
+//   [data-theme="light"] {
+//     --bg-color: hsl(0, 0%, 90%);
+//     --toggle-background: hsl(0, 5%, 81%);
+//     --screen-background: hsl(0, 0%, 93%);
+//     --screen-text-color: hsl(60, 10%, 19%);
+//     --text-color-1: hsl(60, 10%, 19%);
+//     --primary-color: hsl(60, 10%, 19%);
+//     --text-color-2: hsl(0, 0%, 93%);
+//     --text-display-1: hsl(60, 10%, 19%);
+//     --key-background-1: hsl(45, 7%, 89%);
+//     --key-background-2: hsl(185, 42%, 37%);
+//     --key-background-3: hsl(25, 98%, 40%);
+//     --key-shadow-1: hsl(35, 11%, 61%);
+//     --key-shadow-2: hsl(185, 58%, 25%);
+//     --key-shadow-3: hsl(25, 99%, 27%);
+//   }

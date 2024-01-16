@@ -1,0 +1,84 @@
+@import "../../styles/base.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+body {
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+.country-list {
+  padding: 20px;
+  .container {
+    @include apply-at-lg-size {
+      @include wrapper;
+    }
+    .search {
+      @include row;
+      justify-content: space-between;
+      align-items: center;
+      @include apply-at-sm-size {
+        @include col;
+        align-items: start;
+        gap: 20px;
+      }
+      .input-search {
+        @include row;
+        color: rgba(0, 0, 0, 0.3);
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        height: 50px;
+        width: 400px;
+        background-color: $color-elements;
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px $shadow-color;
+        @include apply-at-sm-size {
+          max-width: 320px;
+          width: 100%;
+        }
+        input {
+          color: rgba(0, 0, 0, 0.4);
+          border: none;
+          outline: none;
+          width: 330px;
+          height: 40px;
+          @include apply-at-sm-size {
+            max-width: 200px;
+            width: 100%;
+          }
+        }
+      }
+      .input-region {
+        @include row;
+        color: rgba(0, 0, 0, 0.3);
+        justify-content: center;
+        padding: 5px 20px;
+        align-items: center;
+        height: 50px;
+        background-color: $color-elements;
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px $shadow-color;
+        .region {
+          color: rgba(0, 0, 0, 0.7);
+          height: 40px;
+          width: 180px;
+          border: none;
+          outline: none;
+          @include apply-at-sm-size {
+            max-width: 170px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+.card-list-grid {
+    margin-top: 25px;
+}
+}

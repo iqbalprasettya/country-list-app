@@ -1,0 +1,30 @@
+@import "../../styles/base.scss";
+
+.navbar {
+    padding: 25px 5px;
+    background-color: $color-elements;
+    box-shadow: 0px 1px 10px $shadow-color;
+    .container {
+      @include wrapper;
+      .nav-link {
+        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+          color: $text-color;
+          font-size: 18px;
+          font-weight: 700;
+          text-decoration: none;
+        }
+        .dark-mode {
+          color: $text-color;
+          font-size: 15px;
+          font-weight: 500;
+          .icon-dark {
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
